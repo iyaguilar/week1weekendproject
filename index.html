@@ -1,56 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Double Tap</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- Header Section --> header
-        <!-- Might be worth using bootstrap just for this header? -->
-        <!-- Section #1 -->
-        <!-- Irla handling header -->
+      <!-- Header Section -->
+      header
+      <!-- Might be worth using bootstrap just for this header? -->
+      <!-- Section #1 -->
+      <!-- Irla handling header -->
     </header>
 
-    <main> <!-- Everything is essentially running down the center of one long row so I feel like we should start with our main area flexbox'd for rows and center and then work from there-->
+    <main>
+      <!-- Everything is essentially running down the center of one long row so I feel like we should start with our main area flexbox'd for rows and center and then work from there-->
 
-        <div>
-            <!-- "Focus On Your Business" Section --> blah
-            <!-- This sectin is essentially two boxes, one for text on the left and one for those nine images on the right. Might be worth it to use CSS Grid for those 9 images. -->
-            <!-- Section #2 -->
-            <!-- Sabita handling this section -->
+      <div>
+        <!-- "Focus On Your Business" Section -->
+        blah
+        <!-- This sectin is essentially two boxes, one for text on the left and one for those nine images on the right. Might be worth it to use CSS Grid for those 9 images. -->
+        <!-- Section #2 -->
+        <!-- Sabita handling this section -->
+      </div>
+      <div class="explore-overall">
+        <div class="explore-line"></div>
+        <div class="explore-text">
+          <h4 class="explore-h4">Start to Explore Double Tap</h4>
+          <p class="explore-blurb">
+            A new and better way for small business to manage their customer
+            base, payments, and <br />
+            keep track of internal tasks
+          </p>
         </div>
-        <div>
-            <!-- "Start to Explore Double Tap" Section --> blah
-            <!-- Text on top, and then probably a flexbox'd div with row direction and space around those four boxes -->
-            <!-- Section #3 -->
-            <!-- Section not claimed yet -->
+        <div class="explore-images">
+          <button class="explore-btn">
+            <img src="./assets/Page-1.png" class="btn-img" /><br />Payments
+          </button>
+          <button class="explore-btn">
+            <img src="./assets/Page-1.png" class="btn-img" /><br />Retain
+          </button>
+          <button class="explore-btn">
+            <img src="./assets/layer1.png" class="btn-img" /><br />Reporting
+          </button>
+          <button class="explore-btn">
+            <img
+              src="./assets/upanddown opposite sidebyside updown directions two arrows.png"
+              class="btn-img"
+            /><br />Convert
+          </button>
         </div>
-        <div>
-            <!-- "Start accepting payments with Ease " Image Section --> blah
-            <!-- Not QUITE as straightforward as I initially thought, it looks like there's actually just one image to the left of the section, and the blue right side isn't part of the image -->
-            <!-- Section #3 -->
-            <!-- Section not claimed yet -->
+      </div>
+      <div class="payments-overall">
+        <!-- "Start accepting payments with Ease " Image Section -->
+        <!-- Not QUITE as straightforward as I initially thought, it looks like there's actually just one image to the left of the section, and the blue right side isn't part of the image -->
+        <div class="payments-img">
+          <img
+            src="./assets/credit-card-picture.png"
+            alt="Picture of Guy Holding Credit Card"
+            class="payments-img-real"
+          />
         </div>
-        <div>
-            <!-- "Solutions to fit your Business Need" Section --> blah
-            <!-- Either a CSS Grid, or two flexbox'd rows with two items in each row -->
-            <!-- Section #4 -->
-            <!-- Section not claimed yet -->
+        <div class="payments-text">
+          <h4 class="payments-h4">Start accepting payments with Ease</h4>
+          <p class="payments-blurb">
+            Deliver the world of payment options and seamless checkout
+            experiences, making it easy for your customers to pay you for your
+            products and services.
+          </p>
+          <ul class="payments-points">
+            <li class="payments-list">
+              - Accept credit & debit cards, Paypal, ACH, Apple Pay, and more
+              with the flick<br />
+              of a switch.
+            </li>
+            <li class="payments-list">
+              - Process transactions in up to 32 different currencies.
+            </li>
+            <li class="payments-list">
+              - Integrate with popular payment gateways like Stripes and
+              Braintree
+            </li>
+            <li class="payments-list">
+              - Select from a variety of different checkout options and
+              experiences
+            </li>
+          </ul>
+          <button class="payments-btn">
+            Learn More<span class="btn-angle">></span>
+          </button>
         </div>
-
+      </div>
+      <div>
+        <!-- "Solutions to fit your Business Need" Section -->
+        blah
+        <!-- Either a CSS Grid, or two flexbox'd rows with two items in each row -->
+        <!-- Section #4 -->
+        <!-- Section not claimed yet -->
+      </div>
     </main>
 
     <footer>
-        <!-- Footer Section --> footer
-        <!-- Fairly straightforward footer, probably three boxes? -->
-        <!-- Section #1 -->
-        <!-- Irla handling footer -->
+      <!-- Footer Section -->
+      footer
+      <!-- Fairly straightforward footer, probably three boxes? -->
+      <!-- Section #1 -->
+      <!-- Irla handling footer -->
     </footer>
-</body>
+  </body>
 </html>
