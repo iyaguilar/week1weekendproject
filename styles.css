@@ -5,8 +5,64 @@
     font-family: 'Roboto', sans-serif;
 }
 
-main {
+main{
+    margin:0; 
+}
+.flex-box-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box-col{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.box{
+    background-color: white;
+    border: 1px solid white; 
+    margin: 10px;
+    padding: 20px; 
+}
+.font24{
+    font-size: 24px;
+}
+.hr1{
+    width: 60 vw; 
+    margin: 0, auto; 
+}
+.div0{
+    height: 30%; 
+
+}
+.div1{
+    padding:20px, 20px, 30px,20px;
+    margin:10px;
+
+}
+.bgwhite{
+    background-color: white;
+}
+.focus-biz{
+    max-height: 500px;
+}
+.blue-btn{
+    background-color: blue;
+    color: white; 
+}
+.white-btn{
+    background-color: white;
+    color: blue; 
+}
+.btn{
+    width: 10vw;
+    border: 1px solid blue; 
+    border-radius: 25%;
+    margin: 20px, 20px, 20px, 0px; 
+}
+a{
+    text-decoration: none;
 }
