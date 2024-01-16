@@ -58,9 +58,10 @@ hr {
   background-color: white;
 }
 
-.focus-biz {
-  max-height: 550px;
-  padding-top: 50px;
+.focus-biz{
+    /* max-height: 550px; */
+    max-width: 33vw;
+    padding-top: 50px;
 }
 
 .blue-btn {
