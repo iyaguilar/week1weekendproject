@@ -5,46 +5,46 @@
   font-family: "Roboto", sans-serif;
 }
 
-/* main{
-    margin:0; 
-} */
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Following code is CSS for section #1 */
 
 /* Following code is CSS for section #2 */
 
-.flex-box-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.flex-box-col{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.flex-box-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.box{
-    background-color: white;
-    border: 1px solid white; 
-    margin: 10px;
-    padding: 10px; 
+
+.box {
+  background-color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
 }
+
 /* .font24{
     font-size: 24px;
 } */
-hr{
-    width: 60 vw; 
-    margin: 0, auto; 
-    color: gray; 
+hr {
+  width: 60 vw;
+  margin: 0, auto;
+  color: gray;
 }
+
 /* .div0{
     height: 30%; 
 
@@ -54,41 +54,45 @@ hr{
     margin:10px;
 
 } */
-.bgwhite{
-    background-color: white;
+.bgwhite {
+  background-color: white;
 }
-.focus-biz{
-    max-height: 550px;
-    padding-top: 50px;
-}
-.blue-btn{
-    background-color: blue;
-    color: white; 
-}
-.white-btn{
-    background-color: white;
-    color: blue; 
-    
-}
-.btn{
-    width: 30%;
-    border: 1px solid blue; 
-    border-radius: 8%;
-    /* margin: 30px, 30px, 30px, 30px;  */
-    font-weight: bold;
-}
-a{
-    text-decoration: none;
 
+.focus-biz {
+  max-height: 550px;
+  padding-top: 50px;
 }
-h1{
-    font-weight: bold;
-    font-size:4em;
 
+.blue-btn {
+  background-color: blue;
+  color: white;
 }
-.gray-bold{
-    font-weight: bold;
-    color: gray;
+
+.white-btn {
+  background-color: white;
+  color: blue;
+}
+
+.btn {
+  width: 30%;
+  border: 1px solid blue;
+  border-radius: 8%;
+  /* margin: 30px, 30px, 30px, 30px;  */
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.gray-bold {
+  font-weight: bold;
+  color: gray;
 }
 
 /* Following code is CSS for section #3 */
@@ -219,7 +223,7 @@ h1{
 }
 
 .payments-btn:hover {
-  color:#0850f8;
+  color: #0850f8;
   background-color: white;
   border: #0850f8 1.5px solid;
 }
