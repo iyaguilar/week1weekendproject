@@ -1,12 +1,240 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+/* Following code is CSS for section #1 */
+
+/* Following code is CSS for section #2 */
+
+.flex-box-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-box-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* .font24{
+    font-size: 24px;
+} */
+hr {
+  width: 60 vw;
+  margin: 0, auto;
+  color: gray;
+}
+
+/* .div0{
+    height: 30%; 
+
+}
+.div1{
+    padding:20px, 20px, 30px,20px;
+    margin:10px;
+
+} */
+.bgwhite {
+  background-color: white;
+}
+
+.focus-biz{
+    /* max-height: 550px; */
+    max-width: 33vw;
+    padding-top: 50px;
+}
+
+.blue-btn {
+  background-color: blue;
+  color: white;
+}
+
+.white-btn {
+  background-color: white;
+  color: blue;
+}
+
+.btn {
+  width: 30%;
+  border: 1px solid blue;
+  border-radius: 8%;
+  /* margin: 30px, 30px, 30px, 30px;  */
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.gray-bold {
+  font-weight: bold;
+  color: gray;
+}
+
+/* Following code is CSS for section #3 */
+
+.explore-overall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore-line {
+  width: 80%;
+  border: 1px rgba(0, 0, 0, 0.15) solid;
+}
+
+.explore-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explore-h4 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.explore-blurb {
+  font-size: 0.75rem;
+  margin: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.explore-images {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  width: 80%;
+}
+
+.explore-btn {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px 40px;
+}
+
+.explore-btn:hover {
+  background-color: #0850f8;
+}
+
+.btn-img {
+  height: 70px;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.payments-overall {
+  margin-top: 100px;
+  display: flex;
+  background-color: #0850f8;
+  width: 75%;
+  border: 1px solid #858585;
+  border-radius: 10px;
+}
+
+.payments-img {
+  flex: 2;
+  background-color: white;
+  padding: 100px 10px;
+  margin-right: 25px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.payments-img-real {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+}
+
+.payments-text {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 80px;
+}
+
+.payments-h4 {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: 40px;
+  font-weight: 400;
+}
+
+.payments-blurb {
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 20px;
+}
+
+.payments-points {
+  color: rgba(255, 255, 255, 0.795);
+  list-style-type: none;
+  font-size: 0.6rem;
+  font-weight: 200;
+  margin: 20px 0;
+}
+
+.payments-list {
+  margin: 10px 0;
+}
+
+.payments-btn {
+  margin-bottom: 60px;
+  margin-top: 0px;
+  padding: 6px 40px;
+  background-color: #0850f8;
+  border: rgb(255, 255, 255) 1.5px solid;
+  border-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.792);
+  width: 185px;
+}
+
+.payments-btn:hover {
+  color: #0850f8;
+  background-color: white;
+  border: #0850f8 1.5px solid;
+}
+
+.btn-angle {
+  position: relative;
+  font-weight: 700;
+  font-size: 1rem;
+  left: 30px;
+  bottom: 0.5px;
+}
+
+/* Following code is CSS for section #4 */
